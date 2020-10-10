@@ -1,0 +1,14 @@
+<tbody id="content-table">
+	<% clubs.forEach((club) => { %>
+    <tr>
+        <td><%- club.name %></td>
+        <td><%- club.players %></td>
+        <td><%- club.coach %></td>
+        <td>
+            <a href="/edit/<%= club._id%>" class="ui orange"><i class="edit icon"></i></a>
+	         &nbsp;&nbsp;&nbsp;&nbsp;
+		   <a href="/delete/<%= club._id%>" class="ui orange" onclick="return confirm('Are you  sure you want to delete this item?');"><i class="trash icon"></i></a>
+		</td>
+    </tr>			  		
+	<% }); %>
+</tbody>

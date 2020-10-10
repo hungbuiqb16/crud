@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My App | NodeJS</title>
+	<link rel="icon" href="/img/favicon.png" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="/css/semantic.min.css">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="ui massige menu">
+			<div class="ui container">
+				 <div class="header item">
+				    <a href="/" class="link">Home</a>
+				</div>
+				<a href="/blog" class="item">Blog</a>
+				<a href="/contact"class="item">Contact</a>
+				<a href="/about" class="item">About</a>				
+			</div>
+		</div>
+		<div class="ui container section">
+			<form id="form" action="/edit/<%= club._id%>" class="ui form" method="POST">
+				<div class="ui three fields">
+					<div class="field">
+						<label for="club" class="ui header orange">Enter the club name</label>
+						<input type="text" name="name" value="<%= club.name %>" placeholder="Enter the club name">
+					</div>
+         			<div class="field">
+						<label for="players" class="ui header orange">Enter the player name</label>
+						<input type="text" name="players" value="<%= club.players%>" placeholder="Enter the player name">
+					</div>					
+					<div class="field">
+						<label for="coach" class="ui header orange">Enter the coach name</label>
+						<input type="text" name="coach" value="<%= club.coach%>" placeholder="Enter the coach name">
+					</div>
+				</div>
+				<div class="ui fluid field">
+					<button type="submit" class="ui button orange fluid">Save</button>
+				</div>				
+			</form>
+		</div>
+
+	</div>
+
+	<script src="/js/semantic.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.wrapper {
+	with: 100%;
+	height: 700px;
+	background-image: url(/img/mainBg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.section {
+	margin-top: 100px;
+}

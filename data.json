@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "5f7fe779a9b1f05931348f1d"
+  },
+  "name": "Manchester City",
+  "players": "Gundogan, Silva, Ederson",
+  "coach": "Pep",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7fe9b7d26fef5a304ceee8"
+  },
+  "name": "Chelsea",
+  "players": "Havertz, Ziyech, Werner",
+  "coach": "Frank Lampard",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7fed96d26fef5a304ceee9"
+  },
+  "name": "Manchester United",
+  "players": "Pogba, Degea, Bruno",
+  "coach": "Ole",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7ffcf3e9696e668b22dbd9"
+  },
+  "name": "Arsenal",
+  "players": "Aubameyang, Saka, Willian",
+  "coach": "Mikel Arteta",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f802c61bc906fb2fd2dbe8e"
+  },
+  "name": "Stoke City",
+  "players": "Butland, Obi Mikel, Indi",
+  "coach": "Michael O'Neill",
+  "__v": 0
+}]
